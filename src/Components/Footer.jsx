@@ -1,14 +1,15 @@
 import React from 'react';
 import styled from "styled-components";
 
-export default function Sidebar() {
+export default function Footer() {
     return (
         <Container>
-            Sidebar
+            Footer
         </Container>
     )
 }
 
 const Container = styled.div`
-    background-color: black;
+    background-color: #181818;
+    height : 100%;
 `;

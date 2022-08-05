@@ -5,6 +5,8 @@ import {reducerCases} from "./utils/Constants";
 import Login from './Components/Login.jsx';
 import Spotify from './Components/Spotify.jsx';
 
+import './App.css';
+
 export default function App() {
     const [{ token }, dispatch] = useStateProvider();
     useEffect(() => {
